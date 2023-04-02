@@ -17,7 +17,8 @@
 }
 
 body, html {
-    background-color: #575366 ;
+    background-image: linear-gradient(to top, #575366, #232022);
+
     color: #232022;
     height: 100vh;
     width: 100vw;
@@ -49,9 +50,13 @@ section#login {
     background: #575366 url(../imagens/pexels-misael-garcia-1707823.jpg);
     background-size: cover;
     height: 200px;
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease ;
 }
 
 #login > #formulario {
+    display: block;
     padding:  10px;
 
 }

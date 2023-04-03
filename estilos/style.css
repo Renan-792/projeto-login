@@ -45,7 +45,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.553);
 }
 
-#login > #imagem {
+section#login > #imagem {
     display: block;
     background: #575366 url(../imagens/pexels-misael-garcia-1707823.jpg);
     background-size: cover;
@@ -55,8 +55,17 @@ section#login {
     transition-timing-function: ease ;
 }
 
-#login > #formulario {
+section#login > #formulario {
     display: block;
     padding:  10px;
 
+}
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
 }
